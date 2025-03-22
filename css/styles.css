@@ -192,6 +192,95 @@ h1{
     background-color: darkcyan; 
 }
 
+.login{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #0f0c25;
+    color: white;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.login h1, .login .name input, .login .email input, .login .senha input, .login .entrar input {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.login a{
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.name input{
+    border-radius: 15px; 
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #1e1c2e;
+    color: #b6b5b6;
+    margin-bottom: 15px;
+}
+
+
+.email input{
+    border-radius: 15px; 
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #1e1c2e;
+    color: #b6b5b6;
+}
+
+.senha input{
+    border-radius: 15px; 
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #1e1c2e;
+    color: #b6b5b6;
+    margin-top: 15px;
+}
+
+.entrar input{
+    cursor: pointer; 
+    width: 120;
+    height: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(124, 243, 134);
+    color: #141414
+}
+
+input::placeholder{
+    color: #b6b6b6;
+}
+
+.login h1{
+    color: #fafafa;
+}
+
+.caixa{
+    margin-top: 65px;
+}
+
+.caixa img{
+    width: 115px;
+}
+
+input:focus{
+    outline: none ;
+}
+
 footer{
     background-color: #1693a5;
     color: wheat;
