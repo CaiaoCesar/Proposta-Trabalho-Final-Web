@@ -37,15 +37,15 @@ nav ul li a{
 }
 
 a:hover{
-    color: #4a4a4a
+    color: #c2baba;
 }
 
 a:active{
-    color: #636363; 
+    color:  #c2baba;
 }
 
 body{
-    background-color: #3c3c3c;
+    background-color: #7a959e;
     color: #e3e3e3;
     justify-content: center;
     text-align: center;
@@ -68,13 +68,13 @@ h1{
 }
 
 #slogan {
-    color: #c7c7c7;
+    color: #424e5e;
     justify-content: center;
     text-align: center;
     font-family: "Grechen Fuemen", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.4rem;
+    font-size: 2rem;
 }
 
 .slider{
@@ -108,7 +108,7 @@ h1{
 .manual-navigation{
     position: absolute;
     width: 100%;
-    bottom: -40px;
+    bottom: -140px;
     display: flex;
     justify-content: center;
     left: 50%;
@@ -131,7 +131,7 @@ h1{
 }
 
 .manual-btn:hover{
-    background-color: white;
+    background-color: #bfedbe;
 }
 
 #radio1:checked ~ .first{
@@ -171,6 +171,10 @@ h1{
     gap: 20px;
 }
 
+.conta a{
+    font-size: 2rem;
+    color: #2d2b2b;
+}
 
 .navigation-auto div:not(:last-child){
     margin-right: 40px;
@@ -190,6 +194,11 @@ h1{
 
 #radio4:checked ~ .navigation-auto .auto-btn4{
     background-color: darkcyan; 
+}
+
+.textoIntroducao{
+    font-size: 2.5rem;
+    margin-top: -12%;
 }
 
 .login{
@@ -251,9 +260,10 @@ h1{
     margin-top: 15px;
 }
 
+
 .entrar input{
     cursor: pointer; 
-    width: 120;
+    width: 60%;
     height: 40px;
     height: 40px;
     border-radius: 20px;
@@ -274,7 +284,7 @@ input::placeholder{
 }
 
 .caixa img{
-    width: 115px;
+    width: 35%;
 }
 
 input:focus{
