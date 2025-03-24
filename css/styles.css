@@ -451,10 +451,33 @@ input:focus{
     color: black;
 }
 
+.calendario{
+    justify-content: center;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.calendly-inline-widget {
+    width: 80% !important;
+    height: 750px !important; 
+    margin: 0 auto; 
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.2); 
+}
+
 footer{
     background-color: #1693a5;
     color: wheat;
     font-family: "Vast Shadow", serif;
     font-weight: 400;
     font-style: normal;
+}
+
+
+@media (max-width: 768px) {
+    .calendly-inline-widget {
+        width: 100% !important;
+        height: 400px !important;
+    }
 }
