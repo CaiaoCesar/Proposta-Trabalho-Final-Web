@@ -459,7 +459,7 @@ input:focus{
 
 .calendly-inline-widget {
     width: 80% !important;
-    height: 750px !important; 
+    height: 800px !important; 
     margin: 0 auto; 
     border: 2px solid #ccc; 
     border-radius: 10px; 
@@ -474,10 +474,78 @@ footer{
     font-style: normal;
 }
 
-
+/* Responsividade para telas menores */
 @media (max-width: 768px) {
+    header {
+        font-size: 1.2rem;
+    }
+
+    nav ul {
+        gap: 20%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    #slogan {
+        font-size: 1.5rem;
+    }
+
+    .slider {
+        width: 100%;
+        height: auto;
+    }
+
+    .slides {
+        height: auto;
+    }
+
+    .slide {
+        width: 100%;
+    }
+
+    .manual-navigation {
+        bottom: -100px;
+    }
+
+    .manual-btn {
+        width: 15px;
+        height: 15px;
+    }
+
+    .manual-btn:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    .navigation-auto div {
+        width: 15px;
+        height: 15px;
+    }
+
+    .navigation-auto {
+        gap: 10px;
+    }
+
     .calendly-inline-widget {
         width: 100% !important;
         height: 400px !important;
+    }
+
+    .card-agendamento, .card-resultados {
+        width: 80%;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+    }
+
+    .logout button {
+        width: 250px;
+        height: 60px;
+        font-size: 1rem;
+    }
+
+    .calendario {
+        font-size: 1.5rem;
     }
 }
